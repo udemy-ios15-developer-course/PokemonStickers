@@ -10,6 +10,8 @@
 		E630B74B28C4F8620041FDC5 /* PokemonStickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E630B74A28C4F8620041FDC5 /* PokemonStickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E630B74F28C4F8620041FDC5 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = E630B74E28C4F8620041FDC5 /* Stickers.xcstickers */; };
 		E630B75028C4F8620041FDC5 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = E630B74E28C4F8620041FDC5 /* Stickers.xcstickers */; };
+		E6B25BDE28C51DAB00460577 /* stickers in Resources */ = {isa = PBXBuildFile; fileRef = E6B25BDD28C51DAB00460577 /* stickers */; };
+		E6B25BE028C51DB200460577 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = E6B25BDF28C51DB200460577 /* icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E630B74628C4F8620041FDC5 /* PokemonStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630B74A28C4F8620041FDC5 /* PokemonStickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PokemonStickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630B74E28C4F8620041FDC5 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "PokemonStickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		E6B25BDD28C51DAB00460577 /* stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stickers; sourceTree = "<group>"; };
+		E6B25BDF28C51DB200460577 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				E630B74E28C4F8620041FDC5 /* Stickers.xcstickers */,
+				E6B25BDC28C51D9700460577 /* raw-resources */,
 				E630B74728C4F8620041FDC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +63,15 @@
 				E630B74A28C4F8620041FDC5 /* PokemonStickers StickerPackExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B25BDC28C51D9700460577 /* raw-resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6B25BDF28C51DB200460577 /* icons */,
+				E6B25BDD28C51DAB00460577 /* stickers */,
+			);
+			path = "raw-resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B25BE028C51DB200460577 /* icons in Resources */,
+				E6B25BDE28C51DAB00460577 /* stickers in Resources */,
 				E630B75028C4F8620041FDC5 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLPE2XFURG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PokemonStickers StickerPackExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -293,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLPE2XFURG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PokemonStickers StickerPackExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -311,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLPE2XFURG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonStickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -328,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLPE2XFURG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonStickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

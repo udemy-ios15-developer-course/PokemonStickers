@@ -1,9 +1,32 @@
 {
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   },
   "properties" : {
     "grid-size" : "regular"
-  }
+  },
+  "stickers" : [
+    {
+      "filename" : "mewtwo.sticker"
+    },
+    {
+      "filename" : "herdier.sticker"
+    },
+    {
+      "filename" : "watchdog.sticker"
+    },
+    {
+      "filename" : "Vulpix.sticker"
+    },
+    {
+      "filename" : "perrloin.sticker"
+    },
+    {
+      "filename" : "pikachu.sticker"
+    },
+    {
+      "filename" : "psyduck.sticker"
+    }
+  ]
 }
